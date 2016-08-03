@@ -6,5 +6,9 @@ google-chrome:
     - gpgcheck: 1
 
 google-chrome-stable::
+<<<<<<< HEAD
   pkg.latest: []
 
+=======
+  pkg.installed: []
+>>>>>>> parent of e236f7e... Switch from asserting packages are installed to the latest as well

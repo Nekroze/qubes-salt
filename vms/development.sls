@@ -6,7 +6,7 @@ docker-repo:
     - gpgcheck: 1
 
 docker-pkgs:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - docker-engine
       - docker-compose 

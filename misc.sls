@@ -1,5 +1,5 @@
 misc-packages:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - git
       - vim-enhanced

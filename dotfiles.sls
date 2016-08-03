@@ -1,5 +1,5 @@
 dotfile-deps:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - mr
       - vcsh
