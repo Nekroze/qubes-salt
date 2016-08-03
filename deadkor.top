@@ -2,3 +2,4 @@ base:
   dom0:
     - i3wm
     - misc
+    - vms.fedora-23-minimal
