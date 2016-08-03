@@ -7,3 +7,4 @@ google-chrome:
 
 google-chrome-stable::
   pkg.latest: []
+

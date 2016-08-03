@@ -1,5 +1,5 @@
 office-pkgs:
-  pkg.latest:
+  pkg.purged:
     - pkgs:
       - abiword
       - gnumeric
