@@ -1,7 +1,7 @@
 base:
   qubes:type:template:
     - match: pillar
-    - common
+    - theme 
   qubes:type:standalone:
     - match: pillar
-    - common
+    - theme
