@@ -1,5 +1,5 @@
 base:
   dom0:
     - vms.work-vm
-  fedora-23:
+  fedora-23-kor:
     - vms.work-deps

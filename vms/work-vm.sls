@@ -1,7 +1,7 @@
 work:
   qvm.vm:
     - present:
-      - template: fedora-23
+      - template: fedora-23-kor
       - label: blue
       - mem: 500
       - vcpus: 2
