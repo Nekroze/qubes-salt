@@ -1,9 +1,9 @@
-google-repo:
+google-chrome:
   pkgrepo.managed:
     - humanname: Google Chrome Repository
-    - baseurl: https://repos.fedorapeople.org/repos/spot/chromium
-    - gpgkey: https://repos.fedorapeople.org/repos/spot/chromium/spot.gpg
+    - baseurl: https://dl-ssl.google.com/linux/chrome/rpm/stable/$basearch
+    - gpgkey: https://dl-ssl.google.com/linux/linux_signing_key.pub
     - gpgcheck: 1
 
-chromium:
+google-chrome-stable::
   pkg.installed: []
