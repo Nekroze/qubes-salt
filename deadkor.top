@@ -2,5 +2,6 @@ base:
   dom0:
     - i3wm
     - misc
+    - locale
     - vms.fedora-23-minimal-vm
     - vms.vault-vm

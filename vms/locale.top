@@ -1,0 +1,10 @@
+base:
+  qubes:type:template:
+    - match: pillar
+    - vms.locale
+  qubes:type:standalone:
+    - match: pillar
+    - vms.locale
+  qubes:type:app:
+    - match: pillar
+    - vms.locale
