@@ -2,7 +2,10 @@
   file.managed:
     - user: user
     - group: user
-    - mode: 644
+    - mode: 664
     - contents:
       - ['Settings']
+      - gtk-application-prefer-dark-theme=1
+      - 
+      - [Settings]
       - gtk-application-prefer-dark-theme=1
