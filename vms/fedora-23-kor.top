@@ -1,5 +1,6 @@
 base:
   dom0:
     - vms.fedora-23-kor-vm
+    - vms.use-fedora-23-kor
   fedora-23-kor:
     - vms.fedora-23-kor
