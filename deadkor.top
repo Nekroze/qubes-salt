@@ -3,3 +3,4 @@ base:
     - i3wm
     - misc
     - vms.fedora-23-minimal-vm
+    - vms.vault-vm
