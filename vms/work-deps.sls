@@ -8,3 +8,6 @@ office-pkgs:
       - remmina-plugins-rdp
       - remmina-plugins-vnc
       - keepass
+      - nmap
+      - nmap-frontend
+      - nmap-ncat
