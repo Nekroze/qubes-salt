@@ -1,4 +1,7 @@
 base:
+  qubes:type:template:
+    - match: pillar
+    - theme 
   qubes:type:app:
     - match: pillar
     - theme 
