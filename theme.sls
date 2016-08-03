@@ -4,5 +4,5 @@
     - group: user
     - mode: 644
     - contents:
-      - [Settings]
+      - ['Settings']
       - gtk-application-prefer-dark-theme=1
