@@ -1,5 +1,5 @@
 i3-pkgs:
-  pkg.installed:
+  pkg.latest:
     - pkgs:
       - i3
       - i3lock

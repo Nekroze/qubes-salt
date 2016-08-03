@@ -1,5 +1,5 @@
 network-pkgs:
-  pkg.installed:
+  pkg.latest:
     - pkgs:
       - NetworkManager
       - NetworkManager-wifi

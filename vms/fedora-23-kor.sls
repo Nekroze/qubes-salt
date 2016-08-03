@@ -6,4 +6,4 @@ google-chrome:
     - gpgcheck: 1
 
 google-chrome-stable::
-  pkg.installed: []
+  pkg.latest: []
