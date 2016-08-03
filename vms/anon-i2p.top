@@ -1,0 +1,6 @@
+base:
+  dom0:
+    - vms.whonix-ws-i2p-vm
+    - vms.anon-i2p
+  whonix-ws-i2p:
+    - vms.whonix-ws-i2p
