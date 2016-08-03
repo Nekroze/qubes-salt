@@ -1,2 +1,2 @@
 gnome-tweak-tool:
-  pkg.installed: []
+  pkg.purged: []
