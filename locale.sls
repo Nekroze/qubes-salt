@@ -1,4 +1,4 @@
-au_locale::
+au_locale:
   locale.present:
     - name: en_AU.UTF-8
 
