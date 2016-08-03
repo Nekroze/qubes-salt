@@ -1,0 +1,7 @@
+base:
+  qubes:type:template:
+    - match: pillar
+    - common
+  qubes:type:standalone:
+    - match: pillar
+    - common
