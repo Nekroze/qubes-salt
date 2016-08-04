@@ -15,7 +15,7 @@ jessie-security-disable:
 jessie-qubes-disable:
   pkgrepo.managed:
     - humanname: jessie-qubes
-    - name: deb [arch=amd64] http://deb.qubes-os.org/r3.2/vm jessie-testing main
+    - name: deb [arch=amd64] http://deb.qubes-os.org/r3.2/vm jessie main
     - file: /etc/apt/sources.list.d/qubes-r3.list
     - disabled: True
 
@@ -34,7 +34,7 @@ stretch-security-enable:
 stretch-qubes-enable:
   pkgrepo.managed:
     - humanname: stretch-qubes
-    - name: deb [arch=amd64] http://deb.qubes-os.org/r3.2/vm stretch-testing main
+    - name: deb [arch=amd64] http://deb.qubes-os.org/r3.2/vm stretch main
     - file: /etc/apt/sources.list.d/qubes-r3.list
 
 kali-rolling-repo:
