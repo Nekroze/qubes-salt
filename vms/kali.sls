@@ -42,11 +42,11 @@ kali-rolling-repo:
     - humanname: kali-rolling
     - name: deb http://http.kali.org/kali kali-rolling main contrib non-free
     - key_url: https://www.kali.org/archive-key.asc
-    - file: /etc/apt/sources.list
+    - file: /etc/apt/sources.list.d/kali.list
 
 kali-bleeding-edge-repo:
   pkgrepo.managed:
     - humanname: kali-bleeding-edge
     - name: deb http://repo.kali.org/kali kali-bleeding-edge main
     - key_url: https://www.kali.org/archive-key.asc
-    - file: /etc/apt/sources.list
+    - file: /etc/apt/sources.list.d/kali.list
