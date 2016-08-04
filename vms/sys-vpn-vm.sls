@@ -10,3 +10,6 @@ sys-vpn:
     - prefs:
       - include-in-backups: true
       - netvm: sys-firewall
+    - service:
+      - enable:
+        - network-manager
