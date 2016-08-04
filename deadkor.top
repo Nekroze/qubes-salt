@@ -3,6 +3,7 @@ base:
     - i3wm
     - misc
     - locale
+    - pvgrub
     - vms.fedora-23-minimal-vm
     - vms.vault-vm
   fedora-23-minimal:
