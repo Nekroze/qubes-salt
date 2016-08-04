@@ -11,3 +11,4 @@ office-pkgs:
       - nmap
       - nmap-frontend
       - nmap-ncat
+      - umit
