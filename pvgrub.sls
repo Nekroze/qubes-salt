@@ -1,1 +1,2 @@
-grub2-xen
+grub2-xen:
+  pkg.latest: []
