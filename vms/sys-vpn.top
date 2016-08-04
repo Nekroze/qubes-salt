@@ -1,6 +1,7 @@
 base:
   dom0:
     - vms.sys-vpn-vm
+    - vms.use-sys-vpn
   fedora-23:
     - vms.sys-vpn-deps
   sys-vpn:
