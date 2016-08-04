@@ -1,5 +1,5 @@
 base:
-  qubes:type:template:
+  qubes:type:app:
     - match: pillar
     - theme 
   qubes:type:standalone:
