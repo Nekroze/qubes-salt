@@ -1,4 +1,3 @@
-personal-net-sys-vpn:
+personal:
   qvm.prefs:
-    - name: personal
     - netvm: sys-vpn
