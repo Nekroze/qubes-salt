@@ -5,6 +5,8 @@ sys-vpn:
       - label: yellow
       - mem: 500
       - vcpus: 2
+      - flags:
+        - proxy
     - prefs:
       - include-in-backups: true
       - netvm: sys-firewall
