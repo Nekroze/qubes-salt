@@ -3,3 +3,5 @@ base:
     - vms.sys-vpn-vm
   fedora-23:
     - vms.sys-vpn-deps
+  sys-vpn:
+    - vms.sys-vpn
