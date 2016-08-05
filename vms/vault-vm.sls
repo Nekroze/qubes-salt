@@ -1,7 +1,7 @@
 vault:
   qvm.vm:
     - present:
-      - template: fedora-23-minimal
+      - template: fedora-23
       - label: grey 
       - mem: 500
       - vcpus: 2

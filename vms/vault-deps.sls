@@ -1,2 +1,2 @@
 oathtool:
-  pkg.installed: []
+  pkg.latest: []
