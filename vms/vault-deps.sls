@@ -1,0 +1,2 @@
+oathtool:
+  pkg.installed: []

@@ -5,6 +5,5 @@ base:
     - locale
     - pvgrub
     - vms.fedora-23-minimal-vm
-    - vms.vault-vm
   fedora-23-minimal:
     - vms.fedora-23-minimal
