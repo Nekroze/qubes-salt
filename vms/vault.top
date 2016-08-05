@@ -1,5 +1,5 @@
 base:
   dom0:
-    - vms.vault-vm.sls
+    - vms.vault-vm
   fedora-23-minimal:
-    - vms.vault-deps.sls
+    - vms.vault-deps
