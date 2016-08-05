@@ -4,4 +4,4 @@
     - source_hash: md5=bce6e404545bbecbbbb4569b771bafce
     - archive_format: zip
     - user: user
-    - group: group
+    - group: user
