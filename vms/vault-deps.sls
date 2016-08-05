@@ -1,2 +1,5 @@
-oathtool:
-  pkg.latest: []
+vault-deps:
+  pkg.latest:
+    - pkgs:
+      - oathtool
+      - pass
