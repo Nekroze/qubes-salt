@@ -1,3 +1,10 @@
+icons-dir:
+  file.directory:
+    - name: /home/user/.icons
+    - user: user
+    - group: user
+    - mode: 775
+
 vpn-icons:
   archive.extracted:
     - name: /home/user/.icons/Adwaita/
