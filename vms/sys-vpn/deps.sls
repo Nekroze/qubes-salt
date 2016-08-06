@@ -1,2 +1,2 @@
 NetworkManager-ssh-gnome:
-  pkg.latest: []
+  pkg.installed: []

@@ -1,5 +1,5 @@
 office-pkgs:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - abiword
       - gnumeric

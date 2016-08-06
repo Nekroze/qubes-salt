@@ -1,5 +1,5 @@
 vault-deps:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - oathtool
       - pass

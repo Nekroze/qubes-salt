@@ -1,2 +1,2 @@
 vim:
-  pkg.latest: []
+  pkg.installed: []
