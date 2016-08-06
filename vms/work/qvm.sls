@@ -5,10 +5,10 @@ work:
   qvm.vm:
     - present:
       - template: fedora-23-kor
-      - label: blue
-      - mem: 500
-      - vcpus: 2
     - prefs:
-      - maxmem: 2000
+      - label: blue
+      - vcpus: 2
+      - memory: 500
+      - maxmem: 1000
       - include-in-backups: true
       - netvm: sys-firewall
