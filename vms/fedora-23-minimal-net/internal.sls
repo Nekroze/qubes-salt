@@ -3,8 +3,8 @@ network-pkgs:
     - pkgs:
       - NetworkManager
       - NetworkManager-wifi
-      - NetworkManager-openvpn
-      - NetworkManager-ssh
+      - NetworkManager-openvpn-gnome
+      - NetworkManager-ssh-gnome
       - network-manager-applet
       - wireless-tools
       - dbus-x11
