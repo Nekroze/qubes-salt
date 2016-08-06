@@ -5,6 +5,15 @@ icons-dir:
     - group: user
     - mode: 775
 
+activate-vpn:
+  file.managed:
+    - name: /rw/config/rc.local
+    - user: root
+    - group: root
+    - mode: 775
+    - contents:
+      - nmcli conn up $(nmcli c | grep vpn | tail -n1 | rev | awk '{print $3}' | rev)
+
 vpn-icons:
   archive.extracted:
     - name: /home/user/.icons/Adwaita/
