@@ -5,6 +5,7 @@ anon-i2p:
   qvm.vm:
     - present:
       - template: whonix-ws-i2p
+      - label: purple
     - prefs:
       - label: purple
       - vcpus: 2

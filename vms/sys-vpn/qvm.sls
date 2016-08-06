@@ -2,6 +2,7 @@ sys-vpn:
   qvm.vm:
     - present:
       - template: fedora-23
+      - label: green
       - mem: 500
       - flags:
         - proxy

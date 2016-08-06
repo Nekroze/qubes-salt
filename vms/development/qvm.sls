@@ -2,6 +2,7 @@ development:
   qvm.vm:
     - present:
       - template: fedora-23
+      - label: red
       - flags:
         - standalone
     - prefs:

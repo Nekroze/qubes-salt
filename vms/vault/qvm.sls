@@ -2,6 +2,7 @@ vault:
   qvm.vm:
     - present:
       - template: fedora-23
+      - label: gray
       - mem: 500
     - prefs:
       - label: gray
