@@ -4,4 +4,4 @@ fish:
 user-fish-shell:
   user.present:
     - name: user
-    - shell: /usr/bin/bash
+    - shell: /bin/bash
