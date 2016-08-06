@@ -6,4 +6,4 @@ activate-vpn:
     - mode: 775
     - contents:
       - "#/bin/sh"
-      - nmcli conn up $(nmcli c | grep vpn | tail -n1 | rev | awk '{print $3}' | rev)
+      - $(sleep 10; nmcli conn up $(nmcli c | grep vpn | tail -n1 | rev | awk '{print $3}' | rev))) &
