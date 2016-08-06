@@ -1,5 +1,0 @@
-base:
-  dom0:
-    - vms.vault-vm
-  fedora-23:
-    - vms.vault-deps

@@ -3,4 +3,4 @@
     - user: user
     - group: user
     - mode: 664
-    - source: salt://theme.ini 
+    - source: salt://vms/common/theme.ini 

@@ -1,5 +1,0 @@
-base:
-  dom0:
-    - vms.fedora-23-minimal-net-vm
-  fedora-32-minimal-net:
-    - vms.fedora-23-minimal-net

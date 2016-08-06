@@ -1,3 +1,6 @@
+include:
+  - vms.whonix-ws-i2p.qvm
+
 anon-i2p:
   qvm.vm:
     - present:

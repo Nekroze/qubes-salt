@@ -1,9 +1,0 @@
-base:
-  qubes:type:template:
-    - match: pillar
-    - uptodate
-  qubes:type:standalone:
-    - match: pillar
-    - uptodate
-  dom0:
-    - uptodate

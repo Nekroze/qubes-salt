@@ -1,7 +1,0 @@
-base:
-  qubes:type:app:
-    - match: pillar
-    - theme 
-  qubes:type:standalone:
-    - match: pillar
-    - theme

@@ -1,0 +1,13 @@
+base:
+  qubes:type:template:
+    - match: pillar
+    - vms.common.locale
+    - vms.common.uptodate
+  qubes:type:standalone:
+    - match: pillar
+    - vms.common.locale
+    - vms.common.uptodate
+    - vms.common.theme
+  qubes:type:app:
+    - match: pillar
+    - vms.common.theme

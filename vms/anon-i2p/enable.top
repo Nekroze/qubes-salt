@@ -1,0 +1,5 @@
+base:
+  dom0:
+    - vms.anon-i2p.qvm
+  anon-i2p:
+    - vms.anon-i2p.internal

@@ -4,6 +4,4 @@ base:
     - misc
     - locale
     - pvgrub
-    - vms.fedora-23-minimal-vm
-  fedora-23-minimal:
-    - vms.fedora-23-minimal
+    - uptodate

@@ -1,0 +1,5 @@
+base:
+  dom0:
+    - vms.whonix-ws-i2p.qvm
+  whonix-ws-i2p:
+    - vms.whonix-ws-i2p.internal

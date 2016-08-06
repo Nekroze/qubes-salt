@@ -1,6 +1,0 @@
-base:
-  dom0:
-    - vms.development-vm
-  development:
-    - vms.development
-    - dotfiles

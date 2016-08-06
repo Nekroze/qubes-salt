@@ -1,5 +1,0 @@
-base:
-  dom0:
-    - vms.kali-vm
-  kali:
-    - vms.kali

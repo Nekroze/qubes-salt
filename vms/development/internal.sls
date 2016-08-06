@@ -1,3 +1,6 @@
+include:
+  .dotfiles
+
 docker-repo:
   pkgrepo.managed:
     - humanname: Docker Repository
