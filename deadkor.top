@@ -1,7 +1,0 @@
-base:
-  dom0:
-    - i3wm
-    - misc
-    - locale
-    - pvgrub
-    - vim

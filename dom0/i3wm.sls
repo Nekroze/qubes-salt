@@ -16,25 +16,25 @@ i3-pkgs:
     - user: nekroze
     - group: nekroze
     - mode: 640
-    - source: salt://i3/config
+    - source: salt://dom0/i3/config
 
 /home/nekroze/.i3/qubes_term.sh:
   file.managed:
     - user: nekroze
     - group: nekroze
     - mode: 750
-    - source: salt://i3/qubes_term.sh
+    - source: salt://dom0/i3/qubes_term.sh
 
 /home/nekroze/.i3/qubes_autostart_xdg.sh:
   file.managed:
     - user: nekroze
     - group: nekroze
     - mode: 750
-    - source: salt://i3/qubes_autostart_xdg.sh
+    - source: salt://dom0/i3/qubes_autostart_xdg.sh
 
 /home/nekroze/.i3/qubes_i3status.sh:
   file.managed:
     - user: nekroze
     - group: nekroze
     - mode: 750
-    - source: salt://i3/qubes_i3status.sh
+    - source: salt://dom0/i3/qubes_i3status.sh
