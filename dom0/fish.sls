@@ -3,4 +3,4 @@ fish:
 
 nekroze-fish-shell:
   user.present:
-    - shell: /usr/bin/fish
+    - shell: /usr/bin/bash
