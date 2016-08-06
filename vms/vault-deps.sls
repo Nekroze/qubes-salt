@@ -3,3 +3,4 @@ vault-deps:
     - pkgs:
       - oathtool
       - pass
+      - pinentry-gtk
