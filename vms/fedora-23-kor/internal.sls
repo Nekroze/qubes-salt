@@ -6,4 +6,5 @@ google-chrome:
     - gpgcheck: 1
 
 google-chrome-stable:
-  pkg.latest: []
+  pkg.latest:
+    - fromrepo: google-chrome
