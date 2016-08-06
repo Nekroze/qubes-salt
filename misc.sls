@@ -4,6 +4,8 @@ misc-packages:
       - git
       - vim-enhanced
       - bash-completion
+      - mc
+      - ncdu
 
 unwanted-packages:
   pkg.purged:
