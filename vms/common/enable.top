@@ -2,10 +2,12 @@ base:
   qubes:type:template:
     - match: pillar
     - vms.common.locale
+    - vms.common.fish
   qubes:type:standalone:
     - match: pillar
     - vms.common.locale
     - vms.common.theme
+    - vms.common.fish
   qubes:type:app:
     - match: pillar
     - vms.common.theme
