@@ -1,5 +1,5 @@
 include:
-  .dotfiles
+  - .dotfiles
 
 docker-repo:
   pkgrepo.managed:
