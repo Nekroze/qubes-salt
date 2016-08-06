@@ -4,4 +4,3 @@ base:
     - misc
     - locale
     - pvgrub
-    - uptodate

@@ -1,2 +1,0 @@
-uptodate:
-  pkg.uptodate: []

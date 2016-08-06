@@ -11,3 +11,6 @@ unwanted-packages:
   pkg.purged:
     - pkgs:
       - nano
+
+uptodate-dom0:
+  pkg.uptodate: []
