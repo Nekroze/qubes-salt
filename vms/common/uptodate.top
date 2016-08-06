@@ -1,0 +1,7 @@
+base:
+  qubes:type:template:
+    - match: pillar
+    - vms.common.uptodate
+  qubes:type:standalone:
+    - match: pillar
+    - vms.common.uptodate
