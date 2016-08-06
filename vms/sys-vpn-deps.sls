@@ -1,2 +1,2 @@
-NetworkManager-ssh:
+NetworkManager-ssh-gnome:
   pkg.latest: []
