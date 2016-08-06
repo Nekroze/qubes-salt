@@ -1,3 +1,6 @@
+include:
+  - vms.fedora-23-kor.qvm
+
 work:
   qvm.vm:
     - present:
