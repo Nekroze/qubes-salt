@@ -9,13 +9,11 @@ nano:
     - user: nekroze
     - group: nekroze
     - mode: 640
-    - contents: |
-      syntax on
-      filetype plugin indent on
+    - contents: salt://vimrc
 
-      set nocompatible
-      set tabstop=2
-      set shiftwidth=2
-      set expandtab
-
-      autocmd BufRead,BufNewFile *.sls,*.top set filetype=yaml
+/root/.vimrc:
+  file.managed:
+    - user: root
+    - group: root
+    - mode: 640
+    - contents: salt://vimrc
