@@ -4,3 +4,4 @@ base:
     - misc
     - locale
     - pvgrub
+    - vim
