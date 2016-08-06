@@ -14,3 +14,8 @@ unwanted-packages:
 
 uptodate-dom0:
   pkg.uptodate: []
+
+silence-error-speaker:
+  file.append:
+    - name: /etc/modprobe.d/blacklist
+    - text: blacklist pcspkr
