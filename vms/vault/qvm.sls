@@ -4,7 +4,7 @@ vault:
       - template: fedora-23
       - mem: 500
     - prefs:
-      - label: grey
+      - label: gray
       - vcpus: 2
       - memory: 500
       - include-in-backups: true
