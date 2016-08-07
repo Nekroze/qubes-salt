@@ -1,7 +1,7 @@
 tuned:
   pkg.installed: []
-  service.running: []
-  service.enabled: []
+  service.running:
+    - enable: True
 
 virtual-host:
   tuned.profile: []
