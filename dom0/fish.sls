@@ -7,7 +7,7 @@ nekroze-fish-shell:
 
 /home/user/.config/fish/functions/fish_prompt.fish:
   file.managed:
-    - user: user
-    - group: user
+    - user: nekroze
+    - group: nekroze
     - mode: 660
     - source: salt://vms/common/fish_prompt.fish
