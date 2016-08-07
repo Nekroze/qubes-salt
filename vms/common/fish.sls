@@ -11,4 +11,6 @@ user-fish-shell:
     - user: user
     - group: user
     - mode: 660
+    - dirmode: 750
+    - makedirs: True
     - source: salt://vms/common/fish_prompt.fish
