@@ -1,5 +1,5 @@
 fish:
-  pkg.installed: []
+  pkg.purged: []
 
 user-fish-shell:
   user.present:
