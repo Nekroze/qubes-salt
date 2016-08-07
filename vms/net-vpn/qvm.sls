@@ -1,4 +1,4 @@
-sys-vpn:
+net-vpn:
   qvm.vm:
     - present:
       - template: fedora-23
