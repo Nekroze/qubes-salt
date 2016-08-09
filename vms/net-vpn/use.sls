@@ -1,5 +1,5 @@
 include:
-  - qvm
+  - .qvm
 
 personal-net:
   qvm.prefs:
