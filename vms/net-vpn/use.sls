@@ -1,3 +1,6 @@
+include:
+  - qvm
+
 personal-net:
   qvm.prefs:
     - name: personal
