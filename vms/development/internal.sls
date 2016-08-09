@@ -18,7 +18,7 @@ docker-permissions:
   user.present:
     - name: user
     - remove_groups: False
-    - groups:
+    - optional_groups:
       - docker
 
 docker:
