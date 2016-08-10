@@ -3,7 +3,6 @@ i3-pkgs:
     - pkgs:
       - i3
       - i3lock
-      - adobe-source-code-pro-fonts
 
 /home/nekroze/.i3:
   file.directory:

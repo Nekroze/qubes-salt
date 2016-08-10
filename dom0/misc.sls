@@ -5,6 +5,7 @@ misc-packages:
       - bash-completion
       - mc
       - ncdu
+      - adobe-source-code-pro-fonts
 
 uptodate-dom0:
   pkg.uptodate: []
